@@ -27,8 +27,6 @@ go.work
 
 config.yaml
 
-
-
 /code/target/
 start-feishubot
 .env
@@ -38,3 +36,4 @@ docker.md
 .DS_Store
 **/.DS_Store
 *.pem
+docker-compose.private.yaml
