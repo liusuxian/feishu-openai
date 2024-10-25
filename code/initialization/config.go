@@ -73,7 +73,7 @@ func LoadConfig(cfg string) *Config {
 		FeishuAppVerificationToken: getViperStringValue("APP_VERIFICATION_TOKEN", ""),
 		FeishuBotName:              getViperStringValue("BOT_NAME", ""),
 		OpenaiApiKeys:              getViperStringArray("OPENAI_KEY", []string{""}),
-		OpenaiModel:                getViperStringValue("OPENAI_MODEL", "gpt-4-0125-preview"),
+		OpenaiModel:                getViperStringValue("OPENAI_MODEL", "gpt-4o-mini"),
 		OpenAIHttpClientTimeOut:    getViperIntValue("OPENAI_HTTP_CLIENT_TIMEOUT", 550),
 		OpenaiMaxTokens:            getViperIntValue("OPENAI_MAX_TOKENS", 2000),
 		HttpPort:                   getViperIntValue("HTTP_PORT", 9000),
